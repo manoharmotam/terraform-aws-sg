@@ -8,6 +8,11 @@ variable "environment" {
   default = "dev"
 }
 
+variable "sg_name" {
+
+}
+
+
 variable "vpc_id" {
 
 }
