@@ -9,5 +9,5 @@ resource "aws_security_group" "main" {
         cidr_blocks = ["0.0.0.0/0"]
     }
 
-    tags = merge(var.sg_tags, local.common_tags)
+    tags = merge(local.common_tags, var.sg_tags)
 }
